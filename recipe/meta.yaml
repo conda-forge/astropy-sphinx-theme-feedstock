@@ -1,7 +1,7 @@
 {% set name = "astropy-sphinx-theme" %}
-{% set version = "1.0" %}
+{% set version = "1.1" %}
 {% set git_url = "https://github.com/astropy/astropy-sphinx-theme" %}
-{% set sha256 = "f7e5734bca4bfd62769b2516f2b80a3dc9f950ef67066706579a086d2b2162bc" %}
+{% set sha256 = "ee1dafa0cf4d109455f7a0d19da4cdd608ad24d380ed2eb8090bb945a3d286f9" %}
 
 package:
   name: {{ name|lower }}
