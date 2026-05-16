@@ -1,5 +1,5 @@
 {% set name = "astropy-sphinx-theme" %}
-{% set version = "2.0" %}
+{% set version = "3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 9c4d9033cc7df306e2134eceec7597d2950d424e4fe6201f2fbf788e3ceb8b97
+  sha256: eff780a7b9b00a165782bd703decff9f32bfa6dcb606ce583fe2fc768ca45019
 
 build:
   noarch: python
